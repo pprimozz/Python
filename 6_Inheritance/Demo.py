@@ -16,7 +16,7 @@ class C(B):         #Multilevel inheritance
     def feature5(self):
         print("Feature 5  working")
 
-class D(A,B):         #Multilevel inheritance
+class D(A):         #Multilevel inheritance
     def feature6(self):
         print("Feature 6  working")
 
@@ -31,4 +31,3 @@ b1 = B()
 b1.feature1()
 
 c1 = C()
-c1.
